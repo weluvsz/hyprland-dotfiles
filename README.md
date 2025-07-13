@@ -1,6 +1,6 @@
 # dotfiles preview
 
-![[https://github.com/weluvsz/hyprland-dotfiles/blob/main/screenshots/Pasted%20image%2020250713142449.png]]
+![alt text](https://github.com/weluvsz/hyprland-dotfiles/blob/main/screenshots/Pasted%20image%2020250713142449.png)
 
 ```
 DE: hyprland
@@ -13,7 +13,7 @@ icons: AppleEmoji
 ```
 ## video 
 
-![[https://github.com/weluvsz/hyprland-dotfiles/blob/main/screenshots/dotfiles-preview.mp4]]
+![alt text](https://github.com/weluvsz/hyprland-dotfiles/blob/main/screenshots/dotfiles-preview.mp4)
 
 # used programs (from github)
 
