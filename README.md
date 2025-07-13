@@ -19,6 +19,8 @@
 - [wofi-emoji](https://github.com/dln/wofi-emoji)
 - [AppleEmoji](https://github.com/samuelngs/apple-emoji-linux)
 - [monocraft](https://github.com/IdreesInc/Monocraft)
+- [swww](https://github.com/LGFae/swww)
+
 # how to install 
 
 ## for arch based(arch/endeavouros/cachyos/manjaro) and fedora 
