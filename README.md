@@ -1,6 +1,6 @@
 # dotfiles preview
 
-![[Pasted image 20250713142449.png]]
+![[screenshots/Pasted image 20250713142449.png]]
 
 ```
 DE: hyprland
@@ -13,7 +13,7 @@ icons: AppleEmoji
 ```
 ## video 
 
-![[dotfiles-preview.mp4]]
+![[screenshots/dotfiles-preview.mp4]]
 
 # used programs (from github)
 
@@ -37,7 +37,7 @@ icons: AppleEmoji
 
 ## dotfiles
 
->git clone https://github.com/weluvsz/hyprland-dotifles
+>git clone https://github.com/weluvsz/hyprland-dotifles.git
 >cd hyprland-dotfiles
 >./install.sh
 
