@@ -44,7 +44,9 @@ cd hyprland-dotfiles
 ```
 # after installing
 
-use command 
+edit in .config/hypr/hyprland.conf your programs
+
+use command  
 ```
 hellwal -i path/to/image.jpg 
 ```
