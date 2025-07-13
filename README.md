@@ -1,7 +1,8 @@
 # dotfiles preview
 
-![alt text](https://github.com/weluvsz/hyprland-dotfiles/blob/main/screenshots/Pasted%20image%2020250713142449.png)
-
+![alt text](https://github.com/weluvsz/hyprland-dotfiles/blob/main/screenshots/1.png)
+![alt text](https://github.com/weluvsz/hyprland-dotfiles/blob/main/screenshots/2.png)
+![alt text](https://github.com/weluvsz/hyprland-dotfiles/blob/main/screenshots/3.png)
 ```
 DE: hyprland
 bar: waybar
