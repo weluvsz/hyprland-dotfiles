@@ -38,6 +38,7 @@ packages(){
 			pipx install waypaper
 			git clone https://github.com/danihek/hellwal && cd hellwal && make
 			cd ..
+		fi
 	;;
 	fedora)
 		sudo dnf copr enable maveonair/jetbrains-mono-nerd-fonts
