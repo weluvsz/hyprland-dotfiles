@@ -107,7 +107,7 @@ sh ~/.cache/hellwal/terminal.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 #
 
-alias clear-pacman="sudo pacman -Rns $(pacman -Qdtq)"
+# alias clear-pacman="sudo pacman -Rns $(pacman -Qdtq)"
 alias fucking="sudo"
 alias ff="fastfetch"
 alias uf="uwufetch"
