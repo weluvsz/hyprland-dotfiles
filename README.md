@@ -4,13 +4,13 @@
 ![alt text](https://github.com/weluvsz/hyprland-dotfiles/blob/main/screenshots/2.jpg)
 ![alt text](https://github.com/weluvsz/hyprland-dotfiles/blob/main/screenshots/3.jpg)
 
->DE: hyprland
->bar: waybar
->menu-programs: wofi
->palette: hellwal
->wallpapers: waypaper + swww
->fonts: Moncraft, jetbrains mono 
->icons: AppleEmoji 
+- DE: hyprland
+- bar: waybar
+- menu-programs: wofi
+- palette: hellwal
+- wallpapers: waypaper + swww
+- fonts: Moncraft, jetbrains mono 
+- icons: AppleEmoji 
 
 # used programs (from github)
 
