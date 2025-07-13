@@ -21,6 +21,19 @@
 - [monocraft](https://github.com/IdreesInc/Monocraft)
 - [swww](https://github.com/LGFae/swww)
 
+# binds
+
+- super + return = terminal(kitty)
+- super + r = menu(wofi)
+- super + t = messenger(telegram-desktop)
+- super + b = browser(zen-browser)
+- super + e = filemanager(nemo)
+- super + n = notes(obsidian)
+- ctrl + prtscr = screenshot(via hyprshot)
+- alt + arrows = move window
+
+
+
 # how to install 
 
 ## for arch based(arch/endeavouros/cachyos/manjaro) and fedora 
