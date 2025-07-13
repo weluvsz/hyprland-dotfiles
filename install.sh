@@ -69,7 +69,7 @@ echo "---"
 
 sleep 1;
 
-if [ ! -d "$HOME/wallpaper" ]; then
+if [ ! -d "$HOME/.wallpaper" ]; then
         echo "creating directory  and copying wallpapers(in $HOME/.wallpaper)"
         mkdir -p "$HOME/.wallpaper"
         cp -r ./wallpaper/* "$HOME/.wallpaper"
@@ -84,7 +84,7 @@ echo "---"
 
 echo "installing fonts"
 if [ ! -d "$HOME/.local/share/fonts" ]; then
-	mkdir "$HOME/.local/share/fonts"
+	mkdir -p "$HOME/.local/share/fonts"
 fi 
 
 cp ./fonts/* "$HOME/.local/share/fonts"
