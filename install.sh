@@ -42,10 +42,9 @@ packages(){
 		fi
 	;;
 	fedora)
-		sudo dnf copr enable maveonair/jetbrains-mono-nerd-fonts
-		sudo dnf install jetbrains-mono-nerd-fonts kitty pipx waybar hyprland wofi --skip-unavailable 
-		pipx install waypaper
-		git clone https://github.com/danihek/hellwal  && cd hellwal && make
+		sudo dnf copr enable solopasha/hyprland
+		sudo dnf install kitty waybar hyprland hyprshot swww waypaper wofi --skip-unavailable 
+		git clone https://github.com/danihek/hellwal  && cd hellwal && make && sudo make clean install
 		cd ..
 	;;
 esac 

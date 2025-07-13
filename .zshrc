@@ -74,8 +74,11 @@ plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
-source ~/.cache/hellwal/variables.sh
-sh ~/.cache/hellwal/terminal.sh
+
+#source ~/.cache/hellwal/variables.sh
+#sh ~/.cache/hellwal/terminal.sh
+
+#
 
 # User configuration
 
