@@ -111,5 +111,5 @@ sh ~/.cache/hellwal/terminal.sh
 alias fucking="sudo"
 alias ff="fastfetch"
 alias uf="uwufetch"
-alias deltrash="sudo pacman -Rns $(pacman -Qqdt)"
+# alias deltrash="sudo pacman -Rns $(pacman -Qqdt)"
 
