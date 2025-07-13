@@ -11,10 +11,6 @@ wallpapers: waypaper + swww
 fonts: Moncraft, jetbrains mono 
 icons: AppleEmoji 
 ```
-## video 
-
-![alt text](https://github.com/weluvsz/hyprland-dotfiles/blob/main/screenshots/dotfiles-preview.mp4)
-
 # used programs (from github)
 
 - [hellwal](https://github.com/danihek/hellwal)
