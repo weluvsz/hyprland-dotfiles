@@ -27,4 +27,9 @@ git clone https://github.com/weluvsz/hyprland-dotfiles.git
 cd hyprland-dotfiles
 ./install.sh
 ```
+# after installing
 
+use command 
+```
+hellwal -i path/to/image.jpg 
+```
