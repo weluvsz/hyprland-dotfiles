@@ -42,7 +42,7 @@ packages(){
 	;;
 	fedora)
 		sudo dnf copr enable maveonair/jetbrains-mono-nerd-fonts
-		sudo dnf install jetbrains-mono-nerd-fonts kitty pipx waybar hyprland wofi --skip-unvailable 
+		sudo dnf install jetbrains-mono-nerd-fonts kitty pipx waybar hyprland wofi --skip-unavailable 
 		pipx install waypaper
 		git clone https://github.com/danihek/hellwal  && cd hellwal && make
 		cd ..
@@ -89,6 +89,7 @@ echo "---"
 echo "installing zshrc"
 echo "---"
 echo "installing zshrc"
+
 cp .zshrc "$HOME/.zshrc"
 echo "done"
 
