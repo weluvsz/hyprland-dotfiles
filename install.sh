@@ -37,7 +37,7 @@ packages(){
 		else
 			pacman -S python-pipx
 			pipx install waypaper
-			git clone https://github.com/danihek/hellwal && cd hellwal && make
+			git clone https://github.com/danihek/hellwal && cd hellwal && make && sudo make clean install
 			cd ..
 		fi
 	;;
