@@ -1,0 +1,38 @@
+
+@import "/home/weluvsz/.cache/hellwal/waybar-colors.css";
+* {
+    font-family: Monocraft;
+}
+window {
+    
+    margin: 0px;
+    border: 2px solid @color10; 
+    background-color: @color1; 
+    border-radius: 12px;
+}
+
+#input {
+    margin: 8px;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: @color10; 
+    color: @color13;
+    font-size: 16px;
+}
+
+#inner-box {
+    margin: 5px;
+    background-color: transparent;
+}
+
+#entry {
+    padding: 6px;
+    border-radius: 8px;
+    color: @color4;
+}
+
+#entry:selected {
+    background-color: @color4;
+    color: @color10;
+}
