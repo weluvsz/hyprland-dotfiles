@@ -21,20 +21,9 @@
 - [monocraft](https://github.com/IdreesInc/Monocraft)
 # how to install 
 
-## Arch-based
-
-### packages
-#### arch-repos
+## for arch based(arch/endeavouros/cachyos/manjaro) and fedora 
 ```
-sudo pacman -Sy hyprland waybar wofi swww git ttf-jetbrains-mono-nerd
-```
-#### AUR
-```
-paru/yay -S hellwal waypaper wofi-emoji
-```
-## dotfiles
-```
-git clone https://github.com/weluvsz/hyprland-dotifles.git
+git clone https://github.com/weluvsz/hyprland-dotfiles.git
 cd hyprland-dotfiles
 ./install.sh
 ```
