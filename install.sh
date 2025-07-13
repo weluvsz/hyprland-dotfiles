@@ -14,12 +14,12 @@ echo "---"
 
 
 if [ ! -d "$HOME/wallpaper" ]; then
-        echo "creating directory  and copying wallpapers(in $HOME/wallpaper)"
-        mkdir -p "$HOME/wallpaper"
-        cp -r ./wallpaper/* "$HOME/wallpaper"
+        echo "creating directory  and copying wallpapers(in $HOME/.wallpaper)"
+        mkdir -p "$HOME/.wallpaper"
+        cp -r ./wallpaper/* "$HOME/.wallpaper"
 else
-        echo "copying wallpapers into $HOME/wallpaper"
-        cp ./wallpaper/* "$HOME/wallpaper"
+        echo "copying wallpapers into $HOME/.wallpaper"
+        cp ./wallpaper/* "$HOME/.wallpaper"
 fi
 echo "---"
 
