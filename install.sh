@@ -8,13 +8,14 @@ echo "---"
 if [ -f /etc/os-release ]; then
   . /etc/os-release
   DISTRO=$ID
-  echo "$DISTRO, i like it"
+  DISTRO_LIKE=$ID_LIKE
+  echo "$DISTRO, i like it<3"
 fi
 
 
 packages(){
 	case "$DISTRO" in
-	arch)
+	arch|cachyos|manjaro|endeavouros|garuda)
 
 		sudo pacman -S hyprland wofi swww kitty waybar ttf-jetbrains-mono-nerd 
 
@@ -53,6 +54,7 @@ echo "installing packages:3"
 
 packages
 
+sleep 1;
 echo "---"
 
 echo "copying configs"
@@ -65,6 +67,7 @@ echo "---"
 echo "config copying completed"
 echo "---"
 
+sleep 1;
 
 if [ ! -d "$HOME/wallpaper" ]; then
         echo "creating directory  and copying wallpapers(in $HOME/.wallpaper)"
@@ -74,6 +77,9 @@ else
         echo "copying wallpapers into $HOME/.wallpaper"
         cp ./wallpaper/* "$HOME/.wallpaper"
 fi
+
+sleep 1
+
 echo "---"
 
 echo "installing fonts"
@@ -85,8 +91,8 @@ cp ./fonts/* "$HOME/.local/share/fonts"
 fc-cache -fv
 echo "installed✅"
 
-echo "---"
-echo "installing zshrc"
+sleep 1;
+
 echo "---"
 echo "installing zshrc"
 
