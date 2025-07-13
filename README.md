@@ -3,15 +3,15 @@
 ![alt text](https://github.com/weluvsz/hyprland-dotfiles/blob/main/screenshots/1.png)
 ![alt text](https://github.com/weluvsz/hyprland-dotfiles/blob/main/screenshots/2.jpg)
 ![alt text](https://github.com/weluvsz/hyprland-dotfiles/blob/main/screenshots/3.jpg)
-```
-DE: hyprland
-bar: waybar
-menu-programs: wofi
-palette: hellwal
-wallpapers: waypaper + swww
-fonts: Moncraft, jetbrains mono 
-icons: AppleEmoji 
-```
+
+>DE: hyprland
+>bar: waybar
+>menu-programs: wofi
+>palette: hellwal
+>wallpapers: waypaper + swww
+>fonts: Moncraft, jetbrains mono 
+>icons: AppleEmoji 
+
 # used programs (from github)
 
 - [hellwal](https://github.com/danihek/hellwal)
@@ -25,17 +25,17 @@ icons: AppleEmoji
 
 ### packages
 #### arch-repos
-
->sudo pacman -Sy hyprland waybar wofi swww git ttf-jetbrains-mono-nerd
-
+```
+sudo pacman -Sy hyprland waybar wofi swww git ttf-jetbrains-mono-nerd
+```
 #### AUR
-
->paru/yay -S hellwal waypaper wofi-emoji
-
+```
+paru/yay -S hellwal waypaper wofi-emoji
+```
 ## dotfiles
-
->git clone https://github.com/weluvsz/hyprland-dotifles.git
->cd hyprland-dotfiles
->./install.sh
-
+```
+git clone https://github.com/weluvsz/hyprland-dotifles.git
+cd hyprland-dotfiles
+./install.sh
+```
 
