@@ -1,0 +1,82 @@
+{
+"hyprland/workspaces": {
+        "disable-scroll": true,
+        "all-outputs": false,
+        "warp-on-scroll": false,
+        "format": "{name}",
+        "format-icons": {
+            "urgent": "",
+            "active": "",
+            "default": ""
+        }
+    },
+    "idle_inhibitor": {
+        "format": "{icon}",
+        "format-icons": {
+            "activated": "",
+            "deactivated": ""
+        }
+    },
+  "network": {
+	"format-wifi": "{essid} ({signalStrength}%)",
+        "format-ethernet": "{ipaddr}",
+	"tooltip-format": "{ifname} via {gwaddr}",
+	"format-linked": "{ifname} (No IP)",
+	"format-disconnected": "No connect",
+	"format-alt": "{ifname}: {ipaddr}/{cidr}"
+	 
+    },
+    
+    "hyprland/language": {
+       "format": "  {}",
+       "format-en": "EN",
+       "format-ru": "RU"
+    },
+    "clock": {
+        "format": "{:%H:%M}",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+        "format-alt": "{:%d %b %Y}"
+    },
+
+    "custom/vscodium": {
+        "on-click": "/sbin/vscodium",
+        "format": "{icon} ",
+        "tooltip-format": "{icon} VScode",
+        "format-icons": {
+            "default": "󰨞"
+        }
+    },
+    "custom/steam":{
+        "on-click": "/sbin/steam",
+        "format": "{icon} ",
+        "tooltip-format": "{icon} steam",
+        "format-icons":{
+            "default":""
+        }
+    },
+
+    "custom/telegram":{
+        "on-click": "/sbin/Telegram",
+        "format": "{icon} ",
+        "tooltip-format": "{icon} telegram",
+        "format-icons": {
+            "default": ""
+        }
+    },
+
+    "custom/terminal":{
+	    "on-click": "/usr/bin/kitty",
+	    "format": "{icon} ",
+	    "tooltip-format": "{icon} terminal",
+	    "format-icons": {
+		    "default": ""
+	    }
+    },
+
+    "custom/browser":{
+
+    "format-icons": {
+	    "default" : "󰈹"
+    }
+}
+}

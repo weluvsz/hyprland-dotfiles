@@ -1,0 +1,122 @@
+* {
+    font-family: "Monocraft", "Noto Sans", monospace;
+    font-size: 15px;
+    transition: background-color .3s ease-out;
+}
+
+@import "/home/weluvsz/.cache/hellwal/waybar-colors.css";
+
+
+window#waybar {
+    background: 0;
+    padding: 0px 0px ;
+    border-radius: 10px;
+    color: #e1e9e9;
+    font-family: 
+        SpaceMono Nerd Font,
+        feather;
+    transition: background-color .4s;
+}
+
+.modules-left,
+.modules-center * 
+{
+    background: @color1;
+    margin: 5px 5px;
+    padding: 0px 5px;
+    border-radius: 10px;
+}
+.modules-right *
+{
+    background: @color1;
+    margin: 5px 5px;
+    padding: 0px 10px;
+    border-radius: 10px;
+}
+.modules-left {
+  background: @color1;
+    margin: 5px 5px;
+    padding: 0px 0px;
+    border-radius: 10px;
+}
+.modules-center *
+{
+  font-size: 20px;
+}
+
+/* --------------- */ 
+#clock,
+#vscodium,
+#steam,
+#telegram,
+#battery,
+#cpu,
+#memory,
+#disk,
+#temperature,
+#backlight,
+#network,
+#pulseaudio,
+#wireplumber,
+#custom-media,
+#tray,
+#mode,
+#idle_inhibitor,
+#scratchpad,
+#power-profiles-daemon,
+#language,
+#steam * {
+    padding: 0 10px;
+    border-radius: 9px;
+}
+/*----------------------*/
+
+#clock:hover,
+#battery:hover,
+#cpu:hover,
+#memory:hover,
+#disk:hover,
+#temperature:hover,
+#backlight:hover,
+#network:hover,
+#pulseaudio:hover,
+#wireplumber:hover,
+#custom-media:hover,
+#tray:hover,
+#mode:hover,
+#idle_inhibitor:hover,
+#scratchpad:hover,
+#power-profiles-daemon:hover,
+#language:hover,
+#waybar-mediaplayer,hover,
+#steam:hover{
+  background: @color2;
+}
+
+/* ------------------- */
+#workspaces button {
+  background: transparent;
+  font-family:
+    SpaceMono Nerd Font,
+    feather;
+  font-weight: 900;
+  font-size: 13pt;
+  color: @color7;
+  border:none;
+  border-radius: 8px;
+}
+
+#workspaces button.active {
+  background:@color11;
+  color: #000000; 
+}
+
+#workspaces button:hover {
+  background: @background;
+  color: #ffffff;
+  box-shadow: none;
+}
+
+
+
+/*@import "./waybar-mediaplayer/src/style.css"; */
