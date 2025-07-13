@@ -24,8 +24,12 @@ echo "installing fonts"
 
 cp ./fonts/* "$HOME/.local/share/fonts"
 fc-cache -fv
-
 echo "installed✅"
-echop "---\ninstalling dotfiles finished"
+
+echo "\n---\ninstalling zshrc"
+cp .zshrc "$HOME/.zshrc"
+echo "done"
+
+echo "---\ninstalling dotfiles finished"
 
 
